@@ -1,0 +1,23 @@
+* {
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  background-color: Green;
+  color : White;
+  font-family: 'Times New Roman', Times, serif;
+}
+.toDoList {
+    justify-content: center;
+    list-style-type: none;
+ }
+
+ .toDoList li::before {
+  content: "☑ ";
+}
+
+li:hover {
+  background-color: #606f7c;
+  cursor: pointer;
+}
